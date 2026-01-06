@@ -1,0 +1,10 @@
+.txtName{
+    width: 150px;
+    height: 100px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+.root{
+    width: 200px;
+    margin: 20px auto;
+}

@@ -1,0 +1,11 @@
+.txt{
+    border:1px solid black;
+    width: 150px;
+    height: 100px;
+    margin-bottom:10px;
+    text-align: center;
+}
+.root{
+    width: 300px;
+    margin: 10px auto;
+}
