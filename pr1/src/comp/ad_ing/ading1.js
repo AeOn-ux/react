@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import '../css/main.css';
+import '../css/ading1.css';
 
 const Main = () => {
   // --- 새로 추가된 상태 관리 (사이드바 & 공지) ---
@@ -124,70 +124,7 @@ const Main = () => {
         </aside>
       </div>
 
-      {/* ------------------------------------------------------------------------------------------------------------- */}
-      {/* 하단 추가 정보 섹션 (스크롤 효과 확인용) */}
-      <section className="scroll-section extra-info">
-        <div className="glass-card full-width">
-          {/* 무한 흐르는 슬라이드 섹션 */}
-          <section className="marquee-section">
-            <div className="marquee-wrapper">
-              <div className="marquee-group">
-                <div className="track">
-                  <div className="marquee-card">#태연에 대한 ARTIST 명예훼손 제보가 등록되었어요.</div>
-                  <div className="marquee-card">#카리나에 대한 ARTIST 명예훼손 제보가 등록되었어요.</div>
-                  <div className="marquee-card">#앤톤에 대한 콘텐츠 아이디어 제안이 등록되었어요.</div>
-                  <div className="marquee-card">#태연에 대한 ARTIST 명예훼손 제보가 등록되었어요.</div>
-                  <div className="marquee-card">#태연에 대한 ARTIST 명예훼손 제보가 등록되었어요.</div>
-                  <div className="marquee-card">#카리나에 대한 ARTIST 명예훼손 제보가 등록되었어요.</div>
-                  <div className="marquee-card">#앤톤에 대한 콘텐츠 아이디어 제안이 등록되었어요.</div>
-                  <div className="marquee-card">#태연에 대한 ARTIST 명예훼손 제보가 등록되었어요.</div>
-                </div>
-              </div>
-              <div className="marquee-group reverse">
-                <div className="track">
-                  <div className="marquee-card">#신규 프로젝트 ACTION 101이 시작되었습니다!</div>
-                  <div className="marquee-card">#오늘의 투표수가 50만 건을 돌파했습니다.</div>
-                  <div className="marquee-card">#뮤즈를 향한 당신의 열정을 응원합니다.</div>
-                  <div className="marquee-card">#신규 프로젝트 ACTION 101이 시작되었습니다!</div>
-                  <div className="marquee-card">#신규 프로젝트 ACTION 101이 시작되었습니다!</div>
-                  <div className="marquee-card">#오늘의 투표수가 50만 건을 돌파했습니다.</div>
-                  <div className="marquee-card">#뮤즈를 향한 당신의 열정을 응원합니다.</div>
-                  <div className="marquee-card">#신규 프로젝트 ACTION 101이 시작되었습니다!</div>
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
-      </section>
-
-      {/* ------------------------------------------------------------------------------------------------------------- */}
-      {/* 선택바 */}
-      <section className="card-section-wrapper">
-        <div className="section-header scroll-section">
-          <p>새로워진 ACTION 101</p>
-          <h2>그 시작을 <span>지금 함께</span> 하세요.</h2>
-        </div>
-        <div className="card-container">
-          <div className="info-card scroll-section delay-1">
-            <div className="card-icon">🛡️</div>
-            <span className="tag report">REPORT CENTER</span>
-            <h3>제보·신고 센터</h3>
-            <p>소중한 사람을 지키는 마음으로,<br/>클린한 문화에 기여하고 있습니다.</p>
-          </div>
-          <div className="info-card scroll-section delay-2">
-            <div className="card-icon">✨</div>
-            <span className="tag idea">IDEA SQUARE</span>
-            <h3>아이디어 광장</h3>
-            <p>ACTION 101과 아티스트에게 필요한<br/>의견과 제안을 기다립니다.</p>
-          </div>
-          <div className="info-card scroll-section delay-3">
-            <div className="card-icon">💬</div>
-            <span className="tag faq">FAQ</span>
-            <h3>FAQ</h3>
-            <p>'ACTION 101'의<br/>이용 관련 문의사항을 확인할 수 있습니다.</p>
-          </div>
-        </div>
-      </section>
+      
 
       {/* ------------------------------------------------------------------------------------------------------------- */}
       {/* 푸터 */}
