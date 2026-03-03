@@ -31,7 +31,14 @@ const Main = () => {
       {/* 상단 네비게이션 */}
       <nav className="top-nav">
         <span>ACTION 101</span>
+       <div class="nav-item has-dropdown">
         <span>AUDITION</span>
+        <div class="dropdown-menu">
+          <a href="#">오디션 진행현황</a>
+          <a href="#">오디션 일정</a>
+          <a href="#">FAQ</a>
+        </div>
+      </div>
         <span>커뮤니티 센터</span>
         <span>굿즈샵</span>
         <span>VIDEO</span>
